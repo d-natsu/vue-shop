@@ -1,7 +1,7 @@
 <template>
     <div class="app-container">
         <!-- 顶部 Header 区-->
-        <mt-header fixed title="饿了么"></mt-header>
+        <mt-header fixed title="Vue 移动端网页"></mt-header>
         <!-- 中间的路由 router-view 区域 -->
         <transition>
             <router-view></router-view>
@@ -36,6 +36,7 @@
     .app-container{
         padding-top: 40px;
         overflow-x: hidden;
+        padding-bottom: 50px;
     }
     .v-enter{
         opacity: 0;
