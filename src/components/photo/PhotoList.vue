@@ -5,7 +5,7 @@
             <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
                 <div class="mui-scroll">
                     <a :class="['mui-control-item', item.id == 0 ? 'mui-active' : '']" v-for="item in cates"
-                       :key="item.id" @click="getPhotoListByCateId(item.id)">
+                       :key="item.id" @tap="getPhotoListByCateId(item.id)">
                         {{ item.title }}
                     </a>
                 </div>
