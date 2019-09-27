@@ -17,9 +17,9 @@
             <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="">
                 <img src="../../images/menu4.png" alt="">
                 <div class="mui-media-body">留言反馈</div></router-link></li>
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/video">
                 <img src="../../images/menu5.png" alt="">
-                <div class="mui-media-body">视频专区</div></a></li>
+                <div class="mui-media-body">视频专区</div></router-link></li>
             <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
                 <img src="../../images/menu6.png" alt="">
                 <div class="mui-media-body">联系我们</div></a></li>

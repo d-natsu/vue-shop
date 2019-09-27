@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import HomeContainer from './components/tabBar/HomeContainer.vue';
 import MemberContainer from './components/tabBar/MemberContainer.vue';
 import ShopContainer from './components/tabBar/ShopContainer.vue';
-import SearchContainer from './components/tabBar/SearchContainer.vue';
+import VideoContainer from './components/tabBar/VideoContainer.vue';
 import NewsList from './components/news/NewsList.vue'
 import NewsInfo from './components/news/NewsInfo.vue';
 import PhotoList from './components/photo/PhotoList.vue';
@@ -19,7 +19,7 @@ var router = new VueRouter({
     {path:'/home', component: HomeContainer},
     {path: '/member', component: MemberContainer},
     {path:'/shopCar', component: ShopContainer},
-    {path:'/search', component: SearchContainer},
+    {path:'/video', component: VideoContainer},
     {path: '/home/newsList', component: NewsList},
     {path: '/home/newsinfo/:id', component: NewsInfo},
     {path: '/home/photo_list', component: PhotoList},
